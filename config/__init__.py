@@ -1,0 +1,20 @@
+"""
+Configuration module
+"""
+
+from .settings import *
+
+__all__ = [
+    'SEMANTIC_SCHOLAR_BASE_URL',
+    'SEMANTIC_SCHOLAR_API_KEY',
+    'GEMINI_API_KEY',
+    'REQUEST_DELAY',
+    'TIMEOUT',
+    'MAX_TF_IDF_FEATURES',
+    'NGRAM_RANGE',
+    'MAX_CLUSTERS',
+    'DEFAULT_PAPER_LIMIT',
+    'HIGH_CONFIDENCE_THRESHOLD',
+    'POSITIVE_INDICATORS',
+    'NEGATIVE_INDICATORS'
+]
